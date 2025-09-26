@@ -1,0 +1,16 @@
+{
+  "name": "metamask-app",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "ethers": "^6.15.0",
+    "tronweb": "^6.0.4"
+  }
+}

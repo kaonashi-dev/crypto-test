@@ -1,8 +1,16 @@
 {
-  "name": "metamask-app",
-  "module": "index.ts",
+  "name": "crypto-networks",
+  "version": "1.0.0",
+  "description": "TypeScript library for Ethereum, BSC, and Tron blockchain integration",
+  "module": "src/index.ts",
   "type": "module",
   "private": true,
+  "scripts": {
+    "dev": "bun run src/index.ts",
+    "example:ethereum": "bun run src/examples/ethereum.example.ts",
+    "example:bsc": "bun run src/examples/bsc.example.ts",
+    "example:tron": "bun run src/examples/tron.example.ts"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
